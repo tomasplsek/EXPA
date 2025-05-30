@@ -1,0 +1,7 @@
+\ProvidesPackage{mubeamer/patch/mubeamer-sci}[2017/08/26]
+\NeedsTeXFormat{LaTeX2e}
+
+% Special color definitions for the Faculty of Science make the example block
+% background color identical to the faculty color.
+\setbeamercolor{block title example}{bg=mubeamer@\mubeamer@option@workplace}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!10!bg}
